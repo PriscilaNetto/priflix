@@ -14,7 +14,8 @@ function Footer() {
       </p>
 
       <p>
-        <a href="https://br.linkedin.com/in/priscila-netto">Linkedin |</a>{" "}
+        Siga-me nas redes sociais <br></br>
+        <a href="https://br.linkedin.com/in/priscila-netto">Linkedin |</a> {""}
         <a href="https://github.com/PriscilaNetto">GitHub</a>
       </p>
     </FooterBase>
