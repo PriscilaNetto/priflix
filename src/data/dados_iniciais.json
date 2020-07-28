@@ -1,17 +1,14 @@
 {
   "categorias": [
     {
-      "titulo": "Saindo do The book is on the table",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Saia do the book is on the table",
+      "link": "",
       "cor": "#A020F0",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      },
+
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Hear Me",
+          "url": "https://www.youtube.com/watch?v=H2WA3qdDfd4"
         },
         {
           "titulo": "30 minute English routine",
@@ -21,6 +18,11 @@
           "titulo": "Language learning habits ",
           "url": "https://www.youtube.com/watch?v=8uvKPe0QJMk"
         },
+        {
+          "titulo": "Spanish Listening Comprehension Practice: In 27 minutes listen, repeat, and practice your Spanish ",
+          "url": "https://www.youtube.com/watch?v=ug5phaoXk3g"
+        },
+
         {
           "titulo": "Simplified Speech #85 Nature is all around us",
           "url": "https://www.youtube.com/watch?v=_y1OIZDo4SI"
@@ -46,6 +48,16 @@
         {
           "titulo": "Cozinha Amiga",
           "url": "https://www.youtube.com/watch?v=4BvEy4P6C5o"
+        },
+
+        {
+          "titulo": "Mac n' cheese: macarrão com queijo | Rodrigo Hilbert | Tempero de Família",
+          "url": " https://www.youtube.com/watch?v=vKoEqO_NJlk"
+        },
+
+        {
+          "titulo": "RECEITA DO ALMOÇO DE DOMINGO | PARMEGIANA DE FRANGO | FÁCIL E RÁPIDO PARA TODA FAMÍLIA",
+          "url": " https://www.youtube.com/watch?v=s6KyDBZ2JH8"
         }
       ]
     },
@@ -58,16 +70,25 @@
       },
       "videos": [
         {
-          "titulo": "6 passos práticos para investir",
-          "url": "https://www.youtube.com/watch?v=H-UyKqs2qBU"
-        },
-        {
           "titulo": "You should be all feminists",
           "url": "https://www.youtube.com/watch?v=hg3umXU_qWc"
         },
         {
+          "titulo": "Você sabe o que é racismo? | Quebrando O Tabu",
+          "url": "https://www.youtube.com/watch?v=dU-hqu7aqj4"
+        },
+
+        {
           "titulo": "Era uma vez um amor",
           "url": "https://www.youtube.com/watch?v=Gs0ac_TXmc8"
+        },
+        {
+          "titulo": "6 passos práticos para investir",
+          "url": "https://www.youtube.com/watch?v=H-UyKqs2qBU"
+        },
+        {
+          "titulo": "A LUTA contra a LGBTfobia - Canal Preto",
+          "url": "https://www.youtube.com/watch?v=C8iW9bPz75w"
         },
         {
           "titulo": "Mudança de hábito",
@@ -76,7 +97,7 @@
       ]
     },
     {
-      "titulo": "Venha para o mundo tecnológico!",
+      "titulo": "Saiba mais sobre o mundo tech!",
       "cor": "#000080",
       "videos": [
         {
@@ -86,6 +107,19 @@
         {
           "titulo": " Mulheres na Tecnologia",
           "url": "https://www.youtube.com/watch?v=Ah05cgRap0c"
+        },
+        {
+          "titulo": " TECNOLOGIA E CULTURA NEGRA | Mentes da Tecnologia S01E05 - Nina Silva",
+          "url": "https://www.youtube.com/watch?v=lABz-0PRX5k"
+        },
+
+        {
+          "titulo": "What is a programming language?",
+          "url": "https://www.youtube.com/watch?v=EGQh5SZctaE"
+        },
+        {
+          "titulo": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+          "url": "https://www.youtube.com/watch?v=GZvSYJDk-us&t=17s"
         },
         {
           "titulo": "Curso de JavaScript",
@@ -99,12 +133,26 @@
     },
     {
       "titulo": "Prepare a pipoquinha!",
-      "cor": "#FFFF00",
+      "cor": "#FFD700",
       "videos": [
         {
           "titulo": "CORINGA - Trailer Final",
           "url": "https://www.youtube.com/watch?v=jfVTJm9NilA"
         },
+
+        {
+          "titulo": "Estrelas Além Do Tempo (Legendado)",
+          "url": "https://www.youtube.com/watch?v=_WFkWsDFW70"
+        },
+        {
+          "titulo": "INFILTRADO NA KLAN (Legendado)",
+          "url": "https://www.youtube.com/watch?v=Suff-Qf0RdM"
+        },
+        {
+          "titulo": "O Hobbit: A Batalha Dos Cinco Exércitos (LEG)",
+          "url": "https://www.youtube.com/watch?v=8_zBdckrpTE"
+        },
+
         {
           "titulo": "Bohemian Rhapsody | Official Trailer [HD] |",
           "url": "https://www.youtube.com/watch?v=mP0VHJYFOAU"
@@ -123,6 +171,12 @@
           "titulo": "Amanda Schultz",
           "url": "https://www.youtube.com/watch?v=KzS5nz6Q9nM&list=PLeh4zVT51O_z-YDZ-a2Bi5rmdQ9svQQIO&index=18&t=0s"
         },
+
+        {
+          "titulo": "Yoga Matinal: MILAGRE DA MANHÃ (Alongamento Matinal pra Acordar Bem!) | Fernanda Yoga",
+          "url": "https://www.youtube.com/watch?v=qGF8vB-N1AQ&t=281s"
+        },
+
         {
           "titulo": "Tadashi Kadomoto",
           "url": "https://www.youtube.com/watch?v=4sqR35OwGE0"
@@ -130,6 +184,11 @@
         {
           "titulo": "Yoga para você",
           "url": "https://www.youtube.com/watch?v=0zWvDUtSS7Q"
+        },
+
+        {
+          "titulo": "Meditação para Dormir | Relaxamento Profundo",
+          "url": "https://www.youtube.com/watch?v=dfi11cxr1NM"
         }
       ]
     }
