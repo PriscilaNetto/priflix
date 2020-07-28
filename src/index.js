@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Giphy from "./assets/img/Giphy.gif";
+
 import "./index.css";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -7,7 +9,9 @@ import Home from "./pages/Home";
 import CadastroVideo from "./pages/cadastro/Video";
 import CadastroCategoria from "./pages/cadastro/Categoria";
 
-const Erro404 = () => <div>Página não Encontrada</div>;
+const Erro404 = () => (
+  <img className="errorMessage" src={Giphy} alt="Página não encontrada " />
+);
 
 ReactDOM.render(
   <BrowserRouter>

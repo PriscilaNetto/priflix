@@ -29,3 +29,13 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+.errorMessage {
+  width: 100vh;
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .errorMessage {
+    max-width: 500px;
+  }
+}
