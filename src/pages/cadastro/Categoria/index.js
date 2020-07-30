@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import PageDefault from "../../../components/PageDefault";
 import FormField from "../../../components/FormField";
@@ -26,6 +26,33 @@ function CadastroCategoria() {
       infosDoEvento.target.value
     );
   }
+
+  useEffect(() => {
+    console.log("Olarrrrr");
+    const URL_TOP = "http://localhost:8080/categorias";
+    fetch(URL_TOP).then(async (respostaDoServidor) => {
+      const resposta = await respostaDoServidor.json();
+      setCategorias([...resposta]);
+    });
+
+    // setTimeout(() => {
+    //   setCategorias([
+    //     ...categorias,
+    //     {
+    //       id: 1,
+    //       nome: " Partiu férias! ",
+    //       descricao: "Bora explorar esse mundão?",
+    //       cor: "#BC0C64",
+    //     },
+    //     {
+    //       id: 2,
+    //       nome: " Cuide das plantas ",
+    //       descricao: "Jardinagem descomplicada",
+    //       cor: "#056A14",
+    //     },
+    //   ]);
+    // }, 4 * 1000);
+  }, []);
 
   return (
     <PageDefault>
@@ -66,6 +93,8 @@ function CadastroCategoria() {
 
         <Button>Cadastrar</Button>
       </form>
+
+      {categorias.length === 0 && <div>Loading...</div>}
 
       <ul>
         {categorias.map((categoria) => (

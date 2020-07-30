@@ -1,3 +1,14 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable react/require-default-props */
+/* eslint-disable react/default-props-match-prop-types */
+
+/* eslint-disable react/jsx-one-expression-per-line */
+
+/* eslint-disable object-curly-newline */
+
+/* eslint-disable operator-linebreak */
+/* eslint-disable quotes */
+
 import React from "react";
 import PropTypes from "prop-types";
 import styled, { css } from "styled-components";

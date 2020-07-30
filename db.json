@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": " Partiu férias! ",
+      "descricao": "Bora explorar esse mundão?",
+      "cor": "#BC0C64"
+    },
+    {
+      "id": 2,
+      "nome": " Cuide das plantas ",
+      "descricao": "Jardinagem descomplicada",
+      "cor": "#056A14"
+    }
+  ]
+}
