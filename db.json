@@ -2,15 +2,234 @@
   "categorias": [
     {
       "id": 1,
-      "nome": " Partiu férias! ",
-      "descricao": "Bora explorar esse mundão?",
-      "cor": "#BC0C64"
+      "titulo": "Saia do the book is on the table",
+      "cor": "#A020F0"
+    },
+
+    {
+      "id": 2,
+      "titulo": "Pilotando o fogão",
+      "cor": "#FF4500"
+    },
+
+    { "id": 3, "titulo": "Aprender, agir e evoluir ", "cor": "#A52A2A" },
+
+    { "id": 4, "titulo": "Saiba mais sobre o mundo tech!", "cor": "#000080" },
+
+    { "id": 5, "titulo": "Prepare a pipoquinha!", "cor": "#FFD700" },
+
+    { "id": 6, "titulo": "1, 2, 3, Respira!", "cor": "#6b5be2" }
+  ],
+
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Come Together - Justice League Music Video",
+      "url": "https://www.youtube.com/watch?v=Sgtom9QTzKI"
     },
     {
       "id": 2,
-      "nome": " Cuide das plantas ",
-      "descricao": "Jardinagem descomplicada",
-      "cor": "#056A14"
+      "categoriaId": 1,
+      "titulo": "30 minute English routine",
+      "url": "https://www.youtube.com/watch?v=yp6reY49e2k"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Language learning habits ",
+      "url": "https://www.youtube.com/watch?v=8uvKPe0QJMk"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Spanish Listening Comprehension Practice: In 27 minutes listen, repeat, and practice your Spanish ",
+      "url": "https://www.youtube.com/watch?v=ug5phaoXk3g"
+    },
+
+    {
+      "id": 5,
+      "categoriaId": 2,
+      "titulo": "Tastemade Brasil",
+      "url": "https://www.youtube.com/watch?v=4VxDR7uenfw"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Panelinha",
+      "url": "https://www.youtube.com/watch?v=yIL3Lm38FBw"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Cozinha Amiga",
+      "url": "https://www.youtube.com/watch?v=4BvEy4P6C5o"
+    },
+
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Mac n' cheese: macarrão com queijo | Rodrigo Hilbert | Tempero de Família",
+      "url": " https://www.youtube.com/watch?v=vKoEqO_NJlk"
+    },
+
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "RECEITA DO ALMOÇO DE DOMINGO | PARMEGIANA DE FRANGO | FÁCIL E RÁPIDO PARA TODA FAMÍLIA",
+      "url": " https://www.youtube.com/watch?v=s6KyDBZ2JH8"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "titulo": "we should be all feminists",
+      "url": "https://www.youtube.com/watch?v=hg3umXU_qWc"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "Você sabe o que é racismo? | Quebrando O Tabu",
+      "url": "https://www.youtube.com/watch?v=dU-hqu7aqj4"
+    },
+
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "Era uma vez um amor",
+      "url": "https://www.youtube.com/watch?v=Gs0ac_TXmc8"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "6 passos práticos para investir",
+      "url": "https://www.youtube.com/watch?v=H-UyKqs2qBU"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "A LUTA contra a LGBTfobia - Canal Preto",
+      "url": "https://www.youtube.com/watch?v=C8iW9bPz75w"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Mudança de hábito",
+      "url": "https://www.youtube.com/watch?v=mRMYKKY0sq8"
+    },
+
+    {
+      "id": 16,
+      "categoriaId": 4,
+
+      "titulo": "O que é JavaScript",
+      "url": "https://www.youtube.com/watch?v=NaVSbnnV75Q"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": " Mulheres na Tecnologia",
+      "url": "https://www.youtube.com/watch?v=Ah05cgRap0c"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": " TECNOLOGIA E CULTURA NEGRA | Mentes da Tecnologia S01E05 - Nina Silva",
+      "url": "https://www.youtube.com/watch?v=lABz-0PRX5k"
+    },
+
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "What is a programming language?",
+      "url": "https://www.youtube.com/watch?v=EGQh5SZctaE"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+      "url": "https://www.youtube.com/watch?v=GZvSYJDk-us&t=17s"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Curso de JavaScript",
+      "url": "https://www.youtube.com/watch?v=BXqUH86F-kA"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Começando na carreira de TI",
+      "url": "https://www.youtube.com/watch?v=H84WD_xyj10"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "CORINGA - Trailer Final",
+      "url": "https://www.youtube.com/watch?v=jfVTJm9NilA"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Estrelas Além Do Tempo (Legendado)",
+      "url": "https://www.youtube.com/watch?v=_WFkWsDFW70"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "INFILTRADO NA KLAN (Legendado)",
+      "url": "https://www.youtube.com/watch?v=Suff-Qf0RdM"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "O Hobbit: A Batalha Dos Cinco Exércitos (LEG)",
+      "url": "https://www.youtube.com/watch?v=8_zBdckrpTE"
+    },
+
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Bohemian Rhapsody | Official Trailer [HD] |",
+      "url": "https://www.youtube.com/watch?v=mP0VHJYFOAU"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "Outlander: Season 5 Official Trailer",
+      "url": "https://www.youtube.com/watch?v=3UTxnWEBijo"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Amanda Schultz",
+      "url": "https://www.youtube.com/watch?v=KzS5nz6Q9nM&list=PLeh4zVT51O_z-YDZ-a2Bi5rmdQ9svQQIO&index=18&t=0s"
+    },
+
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Yoga Matinal: MILAGRE DA MANHÃ (Alongamento Matinal pra Acordar Bem!) | Fernanda Yoga",
+      "url": "https://www.youtube.com/watch?v=qGF8vB-N1AQ&t=281s"
+    },
+
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Tadashi Kadomoto",
+      "url": "https://www.youtube.com/watch?v=4sqR35OwGE0"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "Yoga para você",
+      "url": "https://www.youtube.com/watch?v=0zWvDUtSS7Q"
+    },
+
+    {
+      "id": 33,
+      "categoriaId": 6,
+      "titulo": "Meditação para Dormir | Relaxamento Profundo",
+      "url": "https://www.youtube.com/watch?v=dfi11cxr1NM"
     }
   ]
 }

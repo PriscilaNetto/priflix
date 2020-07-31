@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PageDefault from "../../../components/PageDefault";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
+import useForm from "../../../hooks/useForm";
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -10,48 +11,24 @@ function CadastroCategoria() {
     descricao: "",
     cor: "",
   };
+
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute("name"),
-      infosDoEvento.target.value
-    );
-  }
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
   useEffect(() => {
-    console.log("Olarrrr");
-    const URL_TOP = "http://localhost:8080/categorias";
-    fetch(URL_TOP).then(async (respostaDoServidor) => {
-      const resposta = await respostaDoServidor.json();
-      setCategorias([...resposta]);
-    });
-
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       id: 1,
-    //       nome: " Partiu férias! ",
-    //       descricao: "Bora explorar esse mundão?",
-    //       cor: "#BC0C64",
-    //     },
-    //     {
-    //       id: 2,
-    //       nome: " Cuide das plantas ",
-    //       descricao: "Jardinagem descomplicada",
-    //       cor: "#056A14",
-    //     },
-    //   ]);
-    // }, 4 * 1000);
+    if (window.location.href.includes('localhost')) {
+      const URL = 'http://localhost:8080/categorias';
+      fetch(URL)
+        .then(async (respostaDoServer) => {
+          if (respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            setCategorias(resposta);
+            return;
+          }
+          throw new Error('Não foi possível pegar os dados');
+        });
+    }
   }, []);
 
   return (
@@ -65,7 +42,7 @@ function CadastroCategoria() {
         onSubmit={function handleSubmit(infosDoEvento) {
           infosDoEvento.preventDefault();
           setCategorias([...categorias, values]);
-          setValues(valoresIniciais);
+          clearForm();
         }}
       >
         <FormField
@@ -98,13 +75,14 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>{categoria.nome}</li>
+          <li key={`${categoria.id}`}>{categoria.titulo}</li>
         ))}
       </ul>
 
       <Link to="/">Ir para Home</Link>
     </PageDefault>
   );
+
 }
 
 export default CadastroCategoria;
