@@ -5,22 +5,32 @@
       "titulo": "Saia do the book is on the table",
       "cor": "#A020F0"
     },
-
     {
       "id": 2,
       "titulo": "Pilotando o fogão",
       "cor": "#FF4500"
     },
-
-    { "id": 3, "titulo": "Aprender, agir e evoluir ", "cor": "#A52A2A" },
-
-    { "id": 4, "titulo": "Saiba mais sobre o mundo tech!", "cor": "#000080" },
-
-    { "id": 5, "titulo": "Prepare a pipoquinha!", "cor": "#FFD700" },
-
-    { "id": 6, "titulo": "1, 2, 3, Respira!", "cor": "#6b5be2" }
+    {
+      "id": 3,
+      "titulo": "Aprender, agir e evoluir ",
+      "cor": "#A52A2A"
+    },
+    {
+      "id": 4,
+      "titulo": "Saiba mais sobre o mundo tech!",
+      "cor": "#000080"
+    },
+    {
+      "id": 5,
+      "titulo": "Prepare a pipoquinha!",
+      "cor": "#FFD700"
+    },
+    {
+      "id": 6,
+      "titulo": "1, 2, 3, Respira!",
+      "cor": "#6b5be2"
+    }
   ],
-
   "videos": [
     {
       "id": 1,
@@ -46,7 +56,6 @@
       "titulo": "Spanish Listening Comprehension Practice: In 27 minutes listen, repeat, and practice your Spanish ",
       "url": "https://www.youtube.com/watch?v=ug5phaoXk3g"
     },
-
     {
       "id": 5,
       "categoriaId": 2,
@@ -65,14 +74,12 @@
       "titulo": "Cozinha Amiga",
       "url": "https://www.youtube.com/watch?v=4BvEy4P6C5o"
     },
-
     {
       "id": 8,
       "categoriaId": 2,
       "titulo": "Mac n' cheese: macarrão com queijo | Rodrigo Hilbert | Tempero de Família",
       "url": " https://www.youtube.com/watch?v=vKoEqO_NJlk"
     },
-
     {
       "id": 9,
       "categoriaId": 2,
@@ -91,7 +98,6 @@
       "titulo": "Você sabe o que é racismo? | Quebrando O Tabu",
       "url": "https://www.youtube.com/watch?v=dU-hqu7aqj4"
     },
-
     {
       "id": 12,
       "categoriaId": 3,
@@ -116,11 +122,9 @@
       "titulo": "Mudança de hábito",
       "url": "https://www.youtube.com/watch?v=mRMYKKY0sq8"
     },
-
     {
       "id": 16,
       "categoriaId": 4,
-
       "titulo": "O que é JavaScript",
       "url": "https://www.youtube.com/watch?v=NaVSbnnV75Q"
     },
@@ -136,7 +140,6 @@
       "titulo": " TECNOLOGIA E CULTURA NEGRA | Mentes da Tecnologia S01E05 - Nina Silva",
       "url": "https://www.youtube.com/watch?v=lABz-0PRX5k"
     },
-
     {
       "id": 19,
       "categoriaId": 4,
@@ -185,7 +188,6 @@
       "titulo": "O Hobbit: A Batalha Dos Cinco Exércitos (LEG)",
       "url": "https://www.youtube.com/watch?v=8_zBdckrpTE"
     },
-
     {
       "id": 27,
       "categoriaId": 5,
@@ -204,14 +206,12 @@
       "titulo": "Amanda Schultz",
       "url": "https://www.youtube.com/watch?v=KzS5nz6Q9nM&list=PLeh4zVT51O_z-YDZ-a2Bi5rmdQ9svQQIO&index=18&t=0s"
     },
-
     {
       "id": 30,
       "categoriaId": 6,
       "titulo": "Yoga Matinal: MILAGRE DA MANHÃ (Alongamento Matinal pra Acordar Bem!) | Fernanda Yoga",
       "url": "https://www.youtube.com/watch?v=qGF8vB-N1AQ&t=281s"
     },
-
     {
       "id": 31,
       "categoriaId": 6,
@@ -224,12 +224,47 @@
       "titulo": "Yoga para você",
       "url": "https://www.youtube.com/watch?v=0zWvDUtSS7Q"
     },
-
     {
       "id": 33,
       "categoriaId": 6,
       "titulo": "Meditação para Dormir | Relaxamento Profundo",
       "url": "https://www.youtube.com/watch?v=dfi11cxr1NM"
+    },
+    {
+      "titulo": "A IMPORTÂNCIA DE ESTAR SÓ | Maria Homem",
+      "url": "https://www.youtube.com/watch?v=4eyz5-uNGMA",
+      "categoriaId": 1,
+      "id": 34
+    },
+    {
+      "titulo": "A IMPORTÂNCIA DE ESTAR SÓ | Maria Homem",
+      "url": "https://www.youtube.com/watch?v=4eyz5-uNGMA",
+      "categoriaId": 1,
+      "id": 35
+    },
+    {
+      "titulo": "A IMPORTÂNCIA DE ESTAR SÓ | Maria Homem",
+      "url": "https://www.youtube.com/watch?v=4eyz5-uNGMA",
+      "categoriaId": 3,
+      "id": 36
+    },
+    {
+      "titulo": "A HORA DAS MULHERES NA TECNOLOGIA | Mentes da Tecnologia S01E02 - Camila Achutti",
+      "url": "https://www.youtube.com/watch?v=pjoKEkg_HIA",
+      "categoriaId": 2,
+      "id": 37
+    },
+    {
+      "titulo": "Simplified Speech #85 Nature is all around us",
+      "url": "https://www.youtube.com/watch?v=_y1OIZDo4SI",
+      "categoriaId": "Saia do the book is on the table",
+      "id": 38
+    },
+    {
+      "titulo": "Simplified Speech #85 Nature is all around us",
+      "url": "https://www.youtube.com/watch?v=_y1OIZDo4SI",
+      "categoriaId": 1,
+      "id": 39
     }
   ]
 }
