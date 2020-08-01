@@ -56,6 +56,7 @@
       "titulo": "Spanish Listening Comprehension Practice: In 27 minutes listen, repeat, and practice your Spanish ",
       "url": "https://www.youtube.com/watch?v=ug5phaoXk3g"
     },
+
     {
       "id": 5,
       "categoriaId": 2,
@@ -229,42 +230,6 @@
       "categoriaId": 6,
       "titulo": "Meditação para Dormir | Relaxamento Profundo",
       "url": "https://www.youtube.com/watch?v=dfi11cxr1NM"
-    },
-    {
-      "titulo": "A IMPORTÂNCIA DE ESTAR SÓ | Maria Homem",
-      "url": "https://www.youtube.com/watch?v=4eyz5-uNGMA",
-      "categoriaId": 1,
-      "id": 34
-    },
-    {
-      "titulo": "A IMPORTÂNCIA DE ESTAR SÓ | Maria Homem",
-      "url": "https://www.youtube.com/watch?v=4eyz5-uNGMA",
-      "categoriaId": 1,
-      "id": 35
-    },
-    {
-      "titulo": "A IMPORTÂNCIA DE ESTAR SÓ | Maria Homem",
-      "url": "https://www.youtube.com/watch?v=4eyz5-uNGMA",
-      "categoriaId": 3,
-      "id": 36
-    },
-    {
-      "titulo": "A HORA DAS MULHERES NA TECNOLOGIA | Mentes da Tecnologia S01E02 - Camila Achutti",
-      "url": "https://www.youtube.com/watch?v=pjoKEkg_HIA",
-      "categoriaId": 2,
-      "id": 37
-    },
-    {
-      "titulo": "Simplified Speech #85 Nature is all around us",
-      "url": "https://www.youtube.com/watch?v=_y1OIZDo4SI",
-      "categoriaId": "Saia do the book is on the table",
-      "id": 38
-    },
-    {
-      "titulo": "Simplified Speech #85 Nature is all around us",
-      "url": "https://www.youtube.com/watch?v=_y1OIZDo4SI",
-      "categoriaId": 1,
-      "id": 39
     }
   ]
 }
