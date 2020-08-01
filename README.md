@@ -1,21 +1,30 @@
 # priflix ⚛️
 
-![priflix logo](./src/assets/img/Logo.png)
+<h1>
+<img style="width:70%" alt="priflix" src="./src/assets/img/Logo.png"/>
+<br>
+</h1>
 
 Projeto desenvolvido durante as aulas de ** imersão de React ** pela Alura
 
+## 💻Tecnologias usadas:
+
+- [ReactJS]
+- [Node.js]
+
 ## Como instalar
 
-Baixe o projeto:
+Baixe o projeto no terminal:
 
 ```
 git clone https://github.com/PriscilaNetto/priflix.git
 
 ```
 
-## e no terminal digite os seguintes comandos:
+e em seguida digite os seguintes comandos:
 
 ```
+- cd priflix
 - npm install
 - npm start
 - npm run dev
