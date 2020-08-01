@@ -5,7 +5,7 @@
 <br>
 </h1>
 
-Projeto desenvolvido durante as aulas de **imersão de React** pela Alura
+Projeto desenvolvido durante as aulas de **imersão de React** da Alura
 
 ## 💻Tecnologias usadas:
 
