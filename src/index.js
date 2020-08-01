@@ -1,13 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Giphy from "./assets/img/Giphy.gif";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Giphy from './assets/img/Giphy.gif';
 
-import "./index.css";
+import './index.css';
 
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import CadastroVideo from "./pages/cadastro/Video";
-import CadastroCategoria from "./pages/cadastro/Categoria";
+import Home from './pages/Home';
+import CadastroVideo from './pages/cadastro/Video';
+import CadastroCategoria from './pages/cadastro/Categoria';
 
 const Erro404 = () => (
   <img className="errorMessage" src={Giphy} alt="Página não encontrada " />
@@ -22,5 +22,5 @@ ReactDOM.render(
       <Route path="/" component={Erro404} />
     </Switch>
   </BrowserRouter>,
-  document.getElementById("root")
+  document.getElementById('root'),
 );
