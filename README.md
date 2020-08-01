@@ -1,11 +1,11 @@
 # priflix ⚛️
 
-<h1>
+<h1 align="center">
 <img style="width:70%" alt="priflix" src="./src/assets/img/Logo.png"/>
 <br>
 </h1>
 
-Projeto desenvolvido durante as aulas de ** imersão de React ** pela Alura
+Projeto desenvolvido durante as aulas de **imersão de React** pela Alura
 
 ## 💻Tecnologias usadas:
 
