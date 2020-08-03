@@ -56,7 +56,6 @@
       "titulo": "Spanish Listening Comprehension Practice: In 27 minutes listen, repeat, and practice your Spanish ",
       "url": "https://www.youtube.com/watch?v=ug5phaoXk3g"
     },
-
     {
       "id": 5,
       "categoriaId": 2,
@@ -230,6 +229,18 @@
       "categoriaId": 6,
       "titulo": "Meditação para Dormir | Relaxamento Profundo",
       "url": "https://www.youtube.com/watch?v=dfi11cxr1NM"
+    },
+    {
+      "titulo": "Simplified Speech #85 Nature is all around us",
+      "url": "https://www.youtube.com/watch?v=_y1OIZDo4SI",
+      "categoriaId": 1,
+      "id": 34
+    },
+    {
+      "titulo": "Learn Spanish: Flavor, taste and food vocabulary",
+      "url": "https://www.youtube.com/watch?v=zUVStOCzHRE&t=31s",
+      "categoriaId": 1,
+      "id": 35
     }
   ]
 }
